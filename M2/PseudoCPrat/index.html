@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        body{
+            background-color: rgb(57, 136, 57);
+        }
+        .T{
+            text-align: center;
+        }
+        .T:hover{
+            font-family: sans-serif;
+            background-color: aliceblue;
+        }
+        .S{
+            color: white;
+        }
+        p{
+            text-indent: 1.5cm;
+        }
+        div{
+            text-indent: 1.5cm;
+        }
+        div>p{
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 class="T" id="T1">Usando Seletores e Pseudo Classes</h1>
+    <h2 class="S">Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem quo delectus voluptate, illum provident obcaecati, odio animi non voluptas dolorum porro quam quos mollitia ad fugiat nam magni rerum.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, eos, obcaecati atque aut quidem nam placeat optio iusto esse facere, error iure adipisci debitis consectetur accusamus minus dolore incidunt veniam!</p>
+    <h1 class="T">Título 2</h1>
+    <h2 class="S">Subtitulo 2</h2>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim dicta doloribus dolore placeat aut maxime harum non? Laudantium exercitationem vero eius iure odit velit neque dignissimos? Sit, dicta sunt. Libero.
+        <p>Texto Escondido</p>
+    </div>
+    
+</body>
+</html>

@@ -6,5 +6,9 @@ em HTML é class = . no CSS
 */
 
 body{
-    background-color: ;
+    background-color: rgb(66, 182, 66);
+}
+#principal{
+    text-align: center;
+    background-color: aliceblue;
 }
