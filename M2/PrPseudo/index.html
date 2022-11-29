@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        div{
+            display: inline-block;
+            background-color: rgb(143, 143, 228);
+            text-align: center;
+            width: 100px;
+            height: 20px;
+            border: 1px solid black;
+
+
+
+        }
+        div:hover{
+            background-color: rgb(92, 92, 156);
+        }
+        div>p{
+            background-color: rgb(76, 76, 196);
+            border: 1px solid black;
+            display: none;
+        }
+        div:hover>p{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Treino de Pseudo Classes</h1>
+    <div class="menu">
+        1
+        <p>opção</p>
+        <p>opção</p>
+        <p>opção</p>
+    </div>
+    <div class="menu">
+        2
+        <p>opção</p>
+        <p>opção</p>
+        <p>opção</p>
+    </div>
+    <div class="menu">
+        3
+        <p>opção</p>
+        <p>opção</p>
+        <p>opção</p>
+    </div>
+    
+</body>
+</html>
