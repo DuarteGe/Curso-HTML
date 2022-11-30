@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+        a{
+            color: lightblue;
+            text-decoration: none;
+        }
+        a:hover{
+            color: black;
+        }
+        a:active{
+            color: red;
+        }
+        a::after{
+            content: ' [Link]';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a target="_blank" href="www.google.com">Google</a></li>
+        <li><a target="_blank" href="www.github.com">GitHub</a></li>
+        <li><a target="_blank" href="www.youtube.com">YouTube</a></li>
+    </ul>
+</body>
+</html>
