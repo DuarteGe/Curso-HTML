@@ -3,7 +3,48 @@
     font-family: 'idroid';
     src: url('fontes/idroid.otf') format('opentype');
 }
+
+body{
+    
+    background-color: rgb(59, 185, 143);   
+    margin: 0;
+    padding-bottom: 0px;
+
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(96, 226, 96), rgb(15, 94, 15) );
+    text-align: center;
+    background-color: rgb(115, 187, 115) ;
+    height: 170px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+header>p{
+    font-size: 30px;
+}
+nav{
+    font-weight:bold;
+    text-align: left;
+    
+    
+}
+nav>a{
+    padding: 10px;
+    padding-bottom: 0;
+    color: white;
+    text-decoration: none;
+}
+
+#pheader{
+    font-size: 20px;
+}
+
 #principal{
+    padding-top: 10px;
+    margin-top: 0px ;
     font-family: Arial, Helvetica, sans-serif;
 }
 .printit{
@@ -23,32 +64,7 @@ li{
 
 }
 
-header{
-    text-align: center;
-    background-color: rgb(115, 187, 115) ;
-    height: 170px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
 
-    
-}
-header>p{
-    font-size: 30px;
-}
-nav{
-    text-align: left;
-    
-    
-}
-nav>a{
-    padding: 6px;
-    color: white;
-    text-decoration: none;
-}
-
-body{
-    background-color: aquamarine;
-}
 main{
     background-color: white;
     padding: 10px;
@@ -57,11 +73,21 @@ main{
     margin-top: 10px;
     width:800px;
     margin: auto;
+    margin-bottom: 0px;
+    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
 }
 footer{
     background-color: rgb(14, 124, 124);
     margin: none;
+    text-align: center;
+    color: white;
+    margin-bottom:  0px;
+
+
 
 }
 #SabeMais{
