@@ -4,13 +4,14 @@
     src: url('fontes/idroid.otf') format('opentype');
 }
 
-/*body{
+body{
     
-    background-color: rgb(59, 185, 143);   
+    background-color: #c5ebd6;   
     margin: 0;
     padding-bottom: 0px;
 
 }
+/*
 
 header{
     background-image: linear-gradient(to bottom, rgb(96, 226, 96), rgb(15, 94, 15) );
